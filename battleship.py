@@ -20,9 +20,6 @@ def random_col(board):
 ship_row = random_row(board)
 ship_col = random_col(board)
 
-print(ship_row)
-print(ship_col)
-
 for turn in range(10):
   if turn < 9:
     print("Turn", turn + 1, ", you've got", 9 - turn, "left.") 
