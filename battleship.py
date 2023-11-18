@@ -29,8 +29,8 @@ for turn in range(10):
   else:
     print("Last turn!")
 
-  guess_col = int(input("Guess Column: "))
   guess_row = int(input("Guess Row: "))
+  guess_col = int(input("Guess Column: "))
   
 
   if guess_row == ship_row and guess_col == ship_col:
